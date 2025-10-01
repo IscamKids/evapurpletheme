@@ -6,12 +6,12 @@
  * @source Le seul et unique BoVer
  * @website https://www.youtube.com/@Bo_Ver
  */
- @import url(https://raw.githubusercontent.com/BobverCool/Evangelion-BetterDiscord/refs/heads/main/Evangelion.css);
+ @import url();
 /* Credits to Zerthox for making the base format. */
 
 :root {
 
-  --theme-background-image: url(https://r4.wallpaperflare.com/wallpaper/823/155/752/evangelion-end-of-evangelion-asuka-langley-sohryu-neon-genesis-evangelion-wallpaper-2980688d912a9dbbe697288fe0f1a6ad.jpg);
+  --theme-background-image: url(https://images5.alphacoders.com/124/thumb-1920-1242298.png);
   --main-theme-color: #fa341a;
   --theme-transparency: rgba(0, 0, 0, 0.47);
   --home-icon-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/a54d2f51779057.590638a33121b.png);
