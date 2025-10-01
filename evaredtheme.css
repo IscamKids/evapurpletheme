@@ -1,0 +1,115 @@
+/**
+ * @name Evangelion 2.2.0
+ * @author BoVer 
+ * @version 2.2.0
+ * @description Theme pour les bg de home of no bitches (sauf Repulator)
+ * @source Le seul et unique BoVer
+ * @website https://www.youtube.com/@Bo_Ver
+ */
+ @import url(https://raw.githubusercontent.com/BobverCool/Evangelion-BetterDiscord/refs/heads/main/Evangelion.css);
+/* Credits to Zerthox for making the base format. */
+
+:root {
+
+  --theme-background-image: url(https://r4.wallpaperflare.com/wallpaper/823/155/752/evangelion-end-of-evangelion-asuka-langley-sohryu-neon-genesis-evangelion-wallpaper-2980688d912a9dbbe697288fe0f1a6ad.jpg);
+  --main-theme-color: #fa341a;
+  --theme-transparency: rgba(0, 0, 0, 0.47);
+  --home-icon-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/a54d2f51779057.590638a33121b.png);
+
+  --home-icon-image-position: center center;
+
+  --home-icon-image-zoom: 400%;
+
+  --server-listing-width: auto;
+  --server-listing-transparency:rgb(0, 0, 0);
+
+  --font-size: 100%;
+
+  --mention-color: rgba(250, 166, 26, 0.05);
+  --mention-sider: rgba(250, 166, 26, 1);
+  --mention-hover-color: rgba(250, 166, 26, 0.08);
+
+  --category-hover-color: rgb(60, 202, 138);
+
+  --unread-server-animation: rainbow;
+
+
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+  --member-listing-role-color: var(--main-theme-color);
+
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgba(163, 67, 67, 0.788);
+  --small-user-popout-background-image-position: center;
+
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgba(163, 67, 67, 0.788);
+  --big-user-popout-background-image-position: center;
+
+  --code-markup-background-color: rgba(0, 0, 0, 0.6);
+  --code-markup-border: 1px solid transparent;
+
+  --message-box-transparency: rgba(0, 0, 0, 0.6);
+
+  --embed-background-transparency: rgba(0, 0, 0, 0.6);
+
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
+
+  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: #43b581;
+
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(255, 81, 0, 0.863);
+  --channel-limit-background-right: rgba(255, 0, 0, 0.685);
+
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
+
+  --unread-message-divider-color: #f04747;
+  --unread-message-divider-font-color: #fff;
+
+  --new-messages-bar-background-color: #626c80;
+  --new-messages-bar-font-color: #fff;
+
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+  --emoji-menu-bottom-bar-background-color: black;
+  --emoji-menu-search-bar-background-color: rgba(200, 200, 200, 0.1);
+
+  --message-search-menu-background-color: rgba(0, 0, 0, 0.8);
+  --message-search-container-background-color: rgba(0, 0, 0, 0.6);
+  --message-search-result-background-color: rgba(200, 200, 200, 0.05);
+
+  --text-voice-channel-color: rgb(255, 153, 0);
+  --text-voice-channel-hover-color: #ff0000;
+  --text-voice-channel-selected-text-color: #ff0000;
+  --unread-text-channel-color: #ff0000;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+
+  --folder-background-color: #2f3136;
+  --expanded-folder-background-color: transparent;
+
+  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+
+  --channel-text-selected: #000000;
+  --channel-color: rgb(235, 101, 12);
+  --muted-color: rgba(0, 0, 0, 0.1);
+  --channel-text-selected: #ffffff;
+  --channel-normal: rgb(235, 101, 12); 
+  --channel-muted: rgb(235, 101, 12);
+  --channel-hover: rgb(219, 219, 219); 
+  --channel-selected: rgb(235, 101, 12); 
+  --channel-selected-bg: rgb(235, 101, 12);
+  --channel-unread: #626c80;
+  --channel-unread-hover: rgb(255, 255, 255); 
+
+.link__2ea32:after{content:"";position:absolute;top:0;right:100%;bottom:0;left:0;opacity:.9;transition:all .3s ease-in-out;z-index:-1;border-radius:4px}.icon__2ea32{width:18px;height:18px;margin-right:3px;color:var(--channel-color);transition:all .15s ease-in-out}.name__2ea32{color:var(--channel-color);transition:all .15s ease-in-out}.children__2ea32{margin-left:1px;animation:cv-fade-to-3 .15s ease-in-out}.actionIcon_c69b6d{color:var(--channel-color);transition:all .15s ease-in-out}.actionIcon_c69b6d:hover{color:var(--channel-hovered)}.statusText__5cda9,.pencilIcon__5cda9{color:hsla(0,0%,100%,.7)}.wrapper__2ea32:hover .link__2ea32{background:var(--background-modifier-hover)}.wrapper__2ea32:hover :is(.name__2ea32,.icon__2ea32){color:var(--channel-hovered)}.wrapper__2ea32.modeUnreadImportant__2ea32 .name__2ea32{color:var(--channel-unread);text-shadow:0 0 3px}.wrapper__2ea32.modeUnreadImportant__2ea32 .icon__2ea32{color:var(--channel-unread);filter:drop-shadow(0 0 3px)}.wrapper__2ea32.modeUnreadImportant__2ea32:hover :is(.name__2ea32,.icon__2ea32){color:var(--channel-selected)}.wrapper__2ea32.modeSelected__2ea32 :is(.name__2ea32,.icon__2ea32){color:var(--channel-selected)}.wrapper__2ea32.modeSelected__2ea32 .link__2ea32{background-color:rgba(0,0,0,0)}.wrapper__2ea32.modeSelected__2ea32 .link__2ea32:before{background:hsla(0,0%,100%,.1)}.wrapper__2ea32.modeSelected__2ea32 .link__2ea32:after{right:0;background:var(--main-color);animation:cv-channel-select .3s ease-in-out}.wrapper__2ea32.modeSelected__2ea32 .text-xs\/medium_cf4812,.wrapper__2ea32.modeSelected__2ea32 .text-xs\/normal_cf4812{color:#fff !important}.wrapper__2ea32.modeConnected__2ea32 .name__2ea32{color:var(--channel-unread);text-shadow:0 0 3px}.wrapper__2ea32.modeConnected__2ea32 .icon__2ea32{color:var(--channel-unread);filter:drop-shadow(0 0 3px)}.wrapper__2ea32.modeMuted__2ea32 :is(.name__2ea32,.icon__2ea32){color:var(--channel-muted)}.wrapper__2ea32.modeMuted__2ea32:hover :is(.name__2ea32,.icon__2ea32){color:var(--channel-color)}.unread__2ea32{display:none}.live_a7acae{background-color:var(--main-color) !important}.users__260e1,.total__260e1{width:24px;color:hsla(0,0%,100%,.3);font-weight:600;text-align:right;transition:all .15s ease-in-out}.users__260e1{padding:0 4px 0 6px;background:rgba(0,0,0,.15)}.total__260e1{padding:0 6px 0 4px;background:hsla(0,0%,100%,.04);box-shadow:inset 1px 0 hsla(0,0%,100%,.07)}.total__260e1:after{display:none}.modeConnected__2ea32 .users__260e1{color:var(--main-color);text-shadow:0 0 1px}.listDefault__07f91{padding-left:24px}.listDefault__07f91 .clickable__07f91:hover .content__07f91{background:rgba(0,0,0,.04)}.voiceUser__07f91{z-index:1}.voiceUser__07f91 .content__07f91{border-radius:3px;transition:all .15s ease-in-out}.voiceUser__07f91 .avatarSpeaking__07f91{position:relative;transition:all .1s ease-in-out}.voiceUser__07f91 .avatarSpeaking__07f91:after{content:"";position:absolute;height:1.7em;background:linear-gradient(to right, var(--main-color) 10%, transparent);opacity:.5;transition:all .1s ease-in-out,width .15s ease-in-out;pointer-events:none;z-index:-1;border-radius:999px;border-top-right-radius:0;border-bottom-right-radius:0}.voiceUser__07f91 .avatarSpeaking__07f91{box-shadow:0 0 0 2px var(--main-color),inset 0 0 3px rgba(0,0,0,.5)}.voiceUser__07f91 .avatarSpeaking__07f91:after{top:-2px;bottom:-2px;width:150px}.voiceUser__07f91 .username__07f91{color:hsla(0,0%,100%,.5);transition:all .1s ease-in-out}.voiceUser__07f91 .usernameSpeaking__07f91{color:#fff !important}.voiceChannelsButton__29444{border:1px solid var(--main-color)}
+}
